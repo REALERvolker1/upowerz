@@ -3,7 +3,7 @@ use {
     ::core::{ops::Deref, str::FromStr, time::Duration},
     ::serde::{Deserialize, Serialize},
     ::serde_repr::{Deserialize_repr, Serialize_repr},
-    ::zbus::zvariant::{DynamicType, OwnedValue, Type, Value},
+    ::zbus::zvariant::{OwnedValue, Type, Value},
 };
 
 macro_rules! zvariant {

@@ -1,5 +1,5 @@
 //! This code is from a pull request to zbus that was never merged. https://github.com/REALERvolker1/zbus/blob/26a7cd8109fb0329240478296fce3ef955aaa821/zbus/src/abstractions/logging.rs#L2
-
+#[allow(unused_macros)]
 #[cfg(feature = "tracing")]
 mod log {
     /// A macro for [`tracing::debug`], meant to make it optional.
